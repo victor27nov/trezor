@@ -1,0 +1,144 @@
+/*@import url(https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap);*/
+
+@font-face{font-family:TT Satoshi;font-style:normal;font-weight:500;src:url(TTSatoshi/TTSatoshi-Medium.otf) format("opentype")}@font-face{font-family:TT Satoshi;font-style:normal;font-weight:600;src:url(TTSatoshi/TTSatoshi-DemiBold.otf) format("opentype")}@font-face{font-family:PixelOperatorMono8;font-style:normal;font-weight:500;src:url(PixelOperatorMono8.woff2) format("woff2")}@font-face{font-family:RobotoMono;font-style:normal;font-weight:500;src:url(RobotoMono-Medium.woff2) format("woff2")}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "TT Satoshi", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(64, 64, 64);
+    background-color: #F4F4F4;
+}
+
+
+.section{
+    height:100vh;
+    img.imgmove1 {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        transition: 0.3s all;
+    }
+}
+ 
+.section:hover{
+    background-color:#222;
+    img.imgmove1 {
+        margin-top: 0px !important;
+        margin-bottom: 40px !important;
+        transition: 0.3s all;
+    }
+}
+
+.prev_btn:hover {
+    border:1px solid #bbb3fa
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+h1.mobile_web_font, .h1.mobile_web_font {
+    font-size: 50px;
+    @media (max-width: 768px) {
+        font-size: 26px;
+    }
+}
+
+h2.mobile_web_font, .h2.mobile_web_font {
+    font-size: 40px;
+    @media (max-width: 768px) {
+        font-size: 22px;
+    }
+}
+
+h3.mobile_web_font .h3.mobile_web_font {
+    font-size: 36px;
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+h4.mobile_web_font, .h4.mobile_web_font {
+    font-size: 32px;
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+h5.mobile_web_font, .h5.mobile_web_font {
+    font-size: 28px;
+    @media (max-width: 768px) {
+        font-size: 16px;
+    }
+}
+
+h6.mobile_web_font, .h6.mobile_web_font {
+    font-size: 23px;
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+.side-navbar {
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    transition: 0.5s;
+    background-color: #2c3e50;
+}
+
+.side-menu{list-style-type: none;}
+
+
+.with_sidebar {
+    margin-left: 300px;
+    transition: 0.5s;
+    @media (max-width: 768px) {
+        margin-left: 0px;
+    }
+}
+
+.without_sidebar {
+    margin-left: 0px;
+    transition: 0.5s;
+}
+
+.btn.activeForm{
+    background-color: #fff!important;
+    border: 1px solid #c5c5c5;
+    color: rgb(64, 64, 64);
+    font-size:13px;
+}
+
+.btn.formactive{
+    background-color: #5cb85c!important;
+    border: #5cb85c!important;
+    color: #fff;
+    font-weight: bold;
+}
+
+.key_input::placeholder {
+    color: #666666c4;
+    opacity: 1; /* Firefox */
+  }
+  
+  .form-control-add {
+    border-radius: 0px;
+    font-size: 16px;
+    background-color: #fff;
+    padding: 14px 10px;
+    border: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #EEE;
+}
+
+.form-control-add:focus {
+    color: #EEE;
+    background-color: #fff;
+    border-color: gray;
+    outline: 0;
+    box-shadow: none !important;
+    border: none;
+    box-shadow: none !important;
+}

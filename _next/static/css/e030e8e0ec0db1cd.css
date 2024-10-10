@@ -1,0 +1,52 @@
+@font-face {
+    font-family: __monoFont_253fb3;
+    src: url(/_next/static/media/9b3fab1dd08ca547-s.p.woff2) format("woff2");
+    font-display: swap
+}
+
+@font-face {
+    font-family: __monoFont_Fallback_253fb3;
+    src: local("Arial");
+    ascent-override:83.51%;descent-override:26.92%;line-gap-override:0.00%;size-adjust:134.12%}
+
+.__className_253fb3 {
+    font-family: __monoFont_253fb3,__monoFont_Fallback_253fb3
+}
+
+@font-face {
+    font-family: __satoshiRegularFont_890670;
+    src: url(/_next/static/media/ad67f640d4bb0eae-s.p.woff2) format("woff2");
+    font-display: swap
+}
+
+@font-face {
+    font-family: __satoshiRegularFont_Fallback_890670;
+    src: local("Arial");
+    ascent-override:81.90%;descent-override:23.11%;line-gap-override:20.10%;size-adjust:99.51%}
+
+.__className_890670 {
+    font-family: __satoshiRegularFont_890670,__satoshiRegularFont_Fallback_890670
+}
+
+.__variable_890670 {
+    --font-tt-satoshi-regular: "__satoshiRegularFont_890670","__satoshiRegularFont_Fallback_890670"
+}
+
+@font-face {
+    font-family: __satoshiMediumFont_920e7b;
+    src: url(/_next/static/media/68ed26f9d69f132e-s.p.woff2) format("woff2");
+    font-display: swap
+}
+
+@font-face {
+    font-family: __satoshiMediumFont_Fallback_920e7b;
+    src: local("Arial");
+    ascent-override:79.56%;descent-override:22.45%;line-gap-override:19.52%;size-adjust:102.44%}
+
+.__className_920e7b {
+    font-family: __satoshiMediumFont_920e7b,__satoshiMediumFont_Fallback_920e7b
+}
+
+.__variable_920e7b {
+    --font-tt-satoshi-medium: "__satoshiMediumFont_920e7b","__satoshiMediumFont_Fallback_920e7b"
+}
